@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.501,C:\Users\pgorak\Documents\Embarcadero\Studio\Projects\Unit6.dfm=D:\Project\Delphi\LSI_Test1\fMain.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.501,C:\Users\pgorak\Documents\Embarcadero\Studio\Projects\Unit6.pas=D:\Project\Delphi\LSI_Test1\fMain.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.909,=C:\Users\pgorak\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.954,C:\Users\pgorak\Documents\Embarcadero\Studio\Projects\Project6.dproj=D:\Project\Delphi\LSI_Test1\LSITest1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
