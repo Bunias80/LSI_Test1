@@ -54,9 +54,9 @@ type
     wdstrngfldExportEXPORT_USER: TWideStringField;
     wdstrngfldExportEXPORT_PLACE: TWideStringField;
     cxdbgtvGrid1DBTableView1: TcxGridDBTableView;
-    cxg1: TcxGrid;
-    cxdbgtvcxg1DBTableView1: TcxGridDBTableView;
-    cxglcxg1Level1: TcxGridLevel;
+    cxgExport: TcxGrid;
+    cxdbgtvExportTV: TcxGridDBTableView;
+    cxglExportLvl: TcxGridLevel;
     cxgrdbclmncxg1DBTableView1EXPORT_NAME: TcxGridDBColumn;
     cxgrdbclmncxg1DBTableView1EXPORT_DATE: TcxGridDBColumn;
     cxgrdbclmncxg1DBTableView1EXPORT_TIME: TcxGridDBColumn;
@@ -105,7 +105,6 @@ begin
   if (not fdcMain.Connected) then begin
     try
       fdcMain.Open(cxteConnection.Text);
-      //ShowMessage(fdcMain.ConnectionString);
     except
       on e: Exception do begin
         ShowMessage('DB error: ' + e.Message);

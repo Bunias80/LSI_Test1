@@ -62,8 +62,6 @@ object fmMain: TfmMain
     BevelOuter = bvNone
     ShowCaption = False
     TabOrder = 1
-    ExplicitTop = 78
-    ExplicitHeight = 480
     object cxcbPlace: TcxComboBox
       Left = 16
       Top = 29
@@ -120,15 +118,13 @@ object fmMain: TfmMain
       Caption = 'Data do'
     end
   end
-  object cxg1: TcxGrid
+  object cxgExport: TcxGrid
     Left = 185
     Top = 89
     Width = 776
     Height = 472
     Align = alClient
     TabOrder = 2
-    ExplicitTop = 81
-    ExplicitHeight = 480
     object cxdbgtvGrid1DBTableView1: TcxGridDBTableView
       Navigator.Buttons.CustomButtons = <>
       ScrollbarAnnotations.CustomAnnotations = <>
@@ -139,7 +135,7 @@ object fmMain: TfmMain
         DataBinding.IsNullValueType = True
       end
     end
-    object cxdbgtvcxg1DBTableView1: TcxGridDBTableView
+    object cxdbgtvExportTV: TcxGridDBTableView
       Navigator.Buttons.CustomButtons = <>
       Navigator.Buttons.First.Visible = True
       Navigator.Buttons.PriorPage.Visible = True
@@ -249,9 +245,9 @@ object fmMain: TfmMain
         DataBinding.FieldName = 'EXPORT_PLACE'
       end
     end
-    object cxglcxg1Level1: TcxGridLevel
+    object cxglExportLvl: TcxGridLevel
       Caption = 'cxg1Level1'
-      GridView = cxdbgtvcxg1DBTableView1
+      GridView = cxdbgtvExportTV
     end
   end
   object fdcMain: TFDConnection
