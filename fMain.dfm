@@ -259,7 +259,6 @@ object fmMain: TfmMain
       'DATABASE=LSI_Export'
       'MARS=yes'
       'DriverID=MSSQL')
-    Connected = True
     LoginPrompt = False
     Left = 344
     Top = 128
